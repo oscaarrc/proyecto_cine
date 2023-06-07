@@ -3,9 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/1daw/Desktop/ProyectoCine/src/src/ConexionBD.java</file>
-            <file>file:/C:/Users/1daw/Desktop/ProyectoCine/src/src/CrearBaseDeDatos.sql</file>
-            <file>file:/C:/Users/1daw/Desktop/ProyectoCine/src/src/Conexion.java</file>
+            <file>file:/C:/Users/1daw/Desktop/ProyectoCine/src/Conexion.java</file>
+            <file>file:/C:/Users/1daw/Desktop/ProyectoCine/src/ConexionBD.java</file>
+            <file>file:/C:/Users/1daw/Desktop/ProyectoCine/src/CrearBD.java</file>
         </group>
     </open-files>
 </project-private>
