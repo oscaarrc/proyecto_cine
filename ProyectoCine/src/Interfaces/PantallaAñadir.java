@@ -1,6 +1,7 @@
 package Interfaces;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class PantallaAñadir extends JFrame {
     private JPanel MainPanelAñadir;
@@ -19,6 +20,8 @@ public class PantallaAñadir extends JFrame {
         setLocationByPlatform(true);
         //TAMAÑO DE LA INTERFAZ EN PANTALLA
         setSize(450,300);
+        //COLOR DE FONDO
+        MainPanelAñadir.setBackground(Color.getHSBColor(154, 197, 244));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }

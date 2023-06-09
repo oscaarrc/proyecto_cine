@@ -1,6 +1,7 @@
 package Interfaces;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -24,6 +25,8 @@ public class PantallaVisual extends JFrame{
         setLocationByPlatform(true);
         //TAMAÑO DE LA INTERFAZ EN PANTALLA
         setSize(1200,500);
+        //COLOR DE FONDO
+        MainPanelVisual.setBackground(Color.getHSBColor(154, 197, 244));
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
 
@@ -32,7 +35,8 @@ public class PantallaVisual extends JFrame{
         nextButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                setVisible(false);
+                SwingUtilities.invokeLater(()-> new PantallaVisual2().setVisible(true));
             }
         });
 
@@ -40,7 +44,8 @@ public class PantallaVisual extends JFrame{
         lastButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                setVisible(false);
+                SwingUtilities.invokeLater(()-> new PantallaVisual2().setVisible(true));
             }
         });
     }
