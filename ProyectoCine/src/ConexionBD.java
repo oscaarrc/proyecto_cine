@@ -1,9 +1,9 @@
 
-import Interfaces.PantallaPrincipal;
+
 
 public class ConexionBD {
     public static void main(String[] args) {
-        /*Conexion conexion = new Conexion();
+        Conexion conexion = new Conexion();
         
         if(CrearBD.CrearBD()){
             System.out.println("Todo bien");
@@ -14,8 +14,6 @@ public class ConexionBD {
         }
         CrearBD.createDatabase();
         CrearBD.insertData();
-        conexion.myConnection();*/
-        PantallaPrincipal MainPanel = new PantallaPrincipal();
-
+        conexion.myConnection();
     }
 }
