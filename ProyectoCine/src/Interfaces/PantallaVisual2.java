@@ -4,19 +4,19 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class PantallaVisual extends JFrame{
+public class PantallaVisual2 extends JFrame {
     private JPanel MainPanelVisual;
-    private JTextField NameText;
-    private JTextField DescriptionText;
-    private JTextField ReleaseText;
     private JLabel NameLabel;
-    private JLabel DescriptionLabel;
+    private JTextField DescriptionText;
     private JLabel ReleaseLabel;
+    private JTextField ReleaseText;
+    private JTextField NameText;
     private JLabel imgLabel;
-    private JButton nextButton;
+    private JLabel DescriptionLabel;
     private JButton lastButton;
+    private JButton nextButton;
 
-    public PantallaVisual(){
+    public PantallaVisual2(){
         setContentPane(MainPanelVisual);
         //TITULO DE LA PANTALLA
         setTitle("Menú Visual");
@@ -26,7 +26,6 @@ public class PantallaVisual extends JFrame{
         setSize(1200,500);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-
 
         //NEXT BUTTON
         nextButton.addActionListener(new ActionListener() {
